@@ -24,7 +24,8 @@ author = 'Harrie'
 # The full version, including alpha/beta/rc tags
 release = '0.1'
 
-master_doc = 'index'
+# attempting to link master doc
+master_doc = './source/index'
 
 # -- General configuration ---------------------------------------------------
 
