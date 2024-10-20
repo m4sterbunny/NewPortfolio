@@ -9,8 +9,8 @@ Welcome to Harrie's Showcase
    :maxdepth: 2
    :caption: Contents:
 
-   docs/portfolio
-   docs/blockchain
+   pages/portfolio
+   pages/blockchain
 
 
 Rationale
@@ -41,7 +41,7 @@ Static Site Skills
 
 This site is written in reStructured Text (rST) which is rendered as HTML.
 
-The :doc:`portfolio <docs/portfolio>` includes links to a Slate site, which uses markdown to render HTML on GitHub pages. This achieves several objectives:
+The :doc:`portfolio <pages/portfolio>` includes links to a Slate site, which uses markdown to render HTML on GitHub pages. This achieves several objectives:
 1) It demonstrates my markdown capabilities.
 2) It demonstrates that I can handle static site builders solo (no team here!).
 3) The site consumes API data and displays that in a user-friendly manner (more user friendly than current read the docs offerings!).
