@@ -22,15 +22,16 @@ This site acts as a showcase for my technical writing.
 Static Site Skills
 ******************
 
-This site is written in reStructured Text (rST) which is rendered as HTML.
+This site is written in Python's reStructured Text (rST), which is rendered as HTML.
 
-The :doc:`portfolio <pages/portfolio>` includes links to a Slate site, which uses markdown to render HTML on GitHub pages. This achieves several objectives:
+The :doc:`portfolio <pages/portfolio>` includes links to a Slate site, which uses Markdown to render HTML on GitHub pages. This achieves several objectives:
 1) It demonstrates that I can handle static site builders solo (no team here!).
-2) The site consumes API data and displays that in a user-friendly manner (more user friendly than current read the docs offerings!).
-4) It protects past clients' sensitive information.
+2) The site consumes API data and displays that in a user-friendly manner (more user friendly than current Read the Docs offerings!).
+3) It protects past clients' sensitive information.
+4) Having to update this site retains my rST know-how.
 
-Most customers I work with in documentation projects prefer tools that consume files in Markdown and, for APIs, YAML/Markdown blends. I tend to simply use my favorite notepad tool, Sublime to work the docs.
+Most documentation projects prefer tools that consume files in Markdown and, for APIs, YAML/Markdown blends. I tend to simply use my favorite notepad tool, Sublime to work the docs.
 
 I work like a dev: I push and pull to GitHub *et al*. I collaborate on reviews on PRs.
 
-I like to hack documentation management by applying metadata/front matter to files. This way, the file manages itself.
+I like to hack documentation management by applying metadata/front matter to files. This way, the file manages its own details while tickets can manage the high-level needs.
