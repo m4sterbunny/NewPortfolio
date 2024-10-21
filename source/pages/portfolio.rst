@@ -23,11 +23,11 @@ Technical Writing
 
 .. _product: https://www.upstartcommerce.com/no-channel-no-categorization/
 
-.. _image: https://filespin.io/blog/2020-12-15-snappy-image-delivery-to-keeping-online-shoppers-happy/
+.. _image: https://filespin.io/blog/snappy-image-delivery-for-keeping-online-shoppers-happy
 
-.. _DAM: https://filespin.io/blog/2021-01-02-why-do-businesses-need-digital-asset-management/
+.. _DAM: https://filespin.io/blog/why-do-businesses-need-digital-asset-management
 
-.. _shopping: https://filespin.io/blog/2021-06-29-media-management-saas-for-your-enterprise/
+.. _shopping: https://filespin.io/blog/digital-media-management-saas-for-your-enterprise
 
 .. _LBS: https://strata.co.jp/case-studies/live-building-systems
 
@@ -198,9 +198,6 @@ Authoring Articles
    * - Lottie
      - Lottie commissioned 2 "How To" articles to guide users in using their product in a React App.
      - Lottie_ article
-   * - Upstart Commerce
-     - Having cleaned up the API, Upstart commissioned the first article for their blog: an explainer of their product's rationale.
-     - product_ rationale
    * - Filespin
      - Filespin's project required case studies, blog articles, and a website content review. Their product offering can support many sectors; therefore, they needed to improve their SEO for multiple keywords.
      - image_ delivery
