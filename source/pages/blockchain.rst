@@ -61,15 +61,13 @@ I was the lead or sole technical writer working with Product to build out the fo
 
 With Consensys, as part of a global tech writing team, I have supported:
 
-- Infura (private repo)
+- `Infura <https://docs.infura.io/api>`_ (private repo)
 - `MetaMask <https://docs.metamask.io/>`_ contributing via `GitHub <https://github.com/MetaMask/metamask-docs>`_
 - `Besu <https://besu.hyperledger.org/>`_ contributing via `GitHub <https://github.com/hyperledger/besu-docs>`_
 
 
-.. _web3editor:
-
-Editor
-******
+Docs Editor
+***********
 
 For StarkWare, I edited large components of the StarkExV3_ documentation. Writing in Markdown; building in GitBook.
 
@@ -149,6 +147,8 @@ Best practises:
 
 - `API key management <https://www.infura.io/blog/post/best-practises-for-infura-api-key-management>`_
 
+.. _web3editor:
+
 Edited
 ******
 
@@ -203,25 +203,25 @@ My tasks included:
 
 .. _metalink:
 
-Brightnode
+BrightNode
 **********
 
-`BrightNode <https://brightnode.io/>`_ engaged me to support clients with their white paper development:
+`BrightNode <https://brightnode.io/>`_ engaged me to support clients with their white paper development. A selection of these include:
 
 MetaLegends
 ###########
 
-MetaLegends is/was in stealth mode.
+MetaLegends is/was in stealth mode. They intended to create a AAA game with a unique application of NFTs.
 
 PiChain Global
 ##############
 
-BrightNode provided tokenomics and white paper support for PiChain Global.
+BrightNode provided tokenomics and white paper support for PiChain Global who intends to revolutionize e-commerce with Web3.
 
 YCLUB
 #####
 
-BrightNode provided tokenomics and white paper support for the YCLUB project.
+BrightNode provided tokenomics and white paper support for the YCLUB project. They intended to bring Real World Assets (RWAs) such as megayachts into the NFT realm.
 
 StarkWare
 *********

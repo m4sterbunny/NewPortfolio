@@ -127,29 +127,32 @@ API Documentation
    * - Client
      - Notes
      - Docs URL
-   * - `Qredo <https://qredo.com>`_
-     - Supported 3 product releases for this Programmatic Web3 and fund management API
-     - `Qredo Developer Portal <https://developers.qredo.com>`_
    * - `MetaMask <https://metamask.io/>`_
-     - Supported multiple network support releases for Infura:MetaMask
+     - Supported multiple network support releases for Open RPC Infura:MetaMask
      - `Developer Portal <https://docs.metamask.io/services/>`_
+   * - `Qredo <https://qredo.com>`_
+     - Supported 3 OpenAPI product releases of monolith to microservices for this Programmatic Web3 and fund management API
+     - `Qredo Developer Portal <https://developers.qredo.com>`_
+   * - `Neon EVM <https://neonevm.org/>`_
+     - Supported Open RPC
+     - `Developer Portal <https://neonevm.org/docs/api/neon-api>`_
    * - `SMTP2go <https://www.smtp2go.com/>`_
-     - Bulk email manager API
+     - Bulk email manager OpenAPI 3 
      - `Slate API Docs <https://smtp2go.github.io/smtp2go.apidocs/#smtp2go-api>`_
    * - `Upstart Commerce <https://upstartcommerce.com/>`_
-     - e-commerce API
+     - e-commerce OpenAPI 3 
      - `Upstart API docs <https://apidocs.upstartcommerce.com/docs/api-docs/8245c7c92d249-authenticate-a-consumer>`_
    * - `Algopix <https://algopix.com/>`_
-     - Product research API
+     - Product research OpenAPI
      - `Algopix API docs <https://docs.algopix.com/docs/algopix-api-documentation/ZG9jOjE3ODE1Mjg1-authentication>`_
    * - `Faria <https://www.faria.org/about>`_
-     - Private API docs: Education management system API
+     - Private API docs: Education management system OpenAPI
      - `Faria API Docs extract <https://m4sterbunny.github.io/build/#client-3-faria>`_
    * - `Cloud RF <https://cloudrf.com/mapping-mesh-networks/>`_
-     - Radio pylon mapping API
+     - Radio pylon mapping OpenAPI
      - `RF API docs <https://cloudrf.com/documentation/developer/swagger-ui/#/>`_
    * - `Skyway Payments <https://skywaypayments.com/>`_
-     - Consumer payment API targeted at Merchants
+     - Consumer payment OpenAPI targeted at Merchants
      - `Skyway API docs <https://skyway.stoplight.io/docs/skyway-stoplight-doc/branches/main/7ef2485b09b04-skyway-online-payment-product-documentation>`_
 
 .. topic:: Note
@@ -157,6 +160,14 @@ API Documentation
   While I attempt to directly link to API documents that I edited/approved, my clients maintain a living document that may have endpoints not handled by me. Similarly, documentation may be built out after my engagement is completed.
 
 See :ref:`apiprojects` below, for a deeper look at the clients and their requirements.
+
+
+Developer Documentation
+***********************
+
+While most of the developer docs I have been responsible for are also API docs, this is not always the case. See my :ref:`Web3 dev docs <developerdocs>` for more on the blockchain-specific dev portals.
+
+The challenge with Web3 docs on token-floated projects, is that there is often a need to accommodate a retail as well as developer audiences. While in the Web2 world, there is a clear separation between retail/user docs and developer portals.
 
 Author
 ******
