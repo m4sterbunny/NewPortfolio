@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'TechWriter'
+project = 'TechWriter:'
 copyright = '2024, m4sterbunny'
 author = 'm4sterbunny'
-release = '1'
+release = 'Experienced'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
