@@ -5,7 +5,9 @@
 
 Builds to here: https://techwriterportfolio.readthedocs.io/en/latest/index.html
 
-[Control panel](https://readthedocs.org/projects/demo-zoom/builds/)
+[Control panel](https://readthedocs.org/projects/techwriterportfolio/)
+
+> DMNA
 
 ## There is more
 [Cheat sheet for rST](https://cheat.readthedocs.io/en/latest/rst.html)
