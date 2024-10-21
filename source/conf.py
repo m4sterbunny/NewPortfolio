@@ -9,7 +9,7 @@
 project = 'TechWriter:'
 copyright = '2024, m4sterbunny'
 author = 'm4sterbunny'
-release = 'Experienced'
+release = 'Senior'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
