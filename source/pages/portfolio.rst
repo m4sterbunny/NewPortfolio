@@ -138,7 +138,7 @@ API Documentation
      - `Developer Portal <https://neonevm.org/docs/api/neon-api>`_
    * - `SMTP2go <https://www.smtp2go.com/>`_
      - Bulk email manager OpenAPI 3 
-     - `Slate API Docs <https://smtp2go.github.io/smtp2go.apidocs/#smtp2go-api>`_
+     - `Slate API docs <https://smtp2go.github.io/smtp2go.apidocs/#smtp2go-api>`_
    * - `Upstart Commerce <https://upstartcommerce.com/>`_
      - e-commerce OpenAPI 3 
      - `Upstart API docs <https://apidocs.upstartcommerce.com/docs/api-docs/8245c7c92d249-authenticate-a-consumer>`_
@@ -147,7 +147,7 @@ API Documentation
      - `Algopix API docs <https://docs.algopix.com/docs/algopix-api-documentation/ZG9jOjE3ODE1Mjg1-authentication>`_
    * - `Faria <https://www.faria.org/about>`_
      - Private API docs: Education management system OpenAPI
-     - `Faria API Docs extract <https://m4sterbunny.github.io/build/#client-3-faria>`_
+     - `Faria API docs extract <https://m4sterbunny.github.io/build/#client-3-faria>`_
    * - `Cloud RF <https://cloudrf.com/mapping-mesh-networks/>`_
      - Radio pylon mapping OpenAPI
      - `RF API docs <https://cloudrf.com/documentation/developer/swagger-ui/#/>`_
@@ -157,9 +157,9 @@ API Documentation
 
 .. topic:: Note
 
-  While I attempt to directly link to API documents that I edited/approved, my clients maintain a living document that may have endpoints not handled by me. Similarly, documentation may be built out after my engagement is completed.
+  While I attempt to link to API documents that I edited/approved directly, the companies maintain a living document that may have endpoints that I have not handled. Similarly, documentation may be built out after my engagement is completed.
 
-See :ref:`apiprojects` below, for a deeper look at the clients and their requirements.
+See :ref:`apiprojects` below for a deeper look at the clients and their requirements.
 
 
 Developer Documentation
@@ -167,7 +167,7 @@ Developer Documentation
 
 While most of the developer docs I have been responsible for are also API docs, this is not always the case. See my :ref:`Web3 dev docs <developerdocs>` for more on the blockchain-specific dev portals.
 
-The challenge with Web3 docs on token-floated projects, is that there is often a need to accommodate a retail as well as developer audiences. While in the Web2 world, there is a clear separation between retail/user docs and developer portals.
+The challenge with Web3 docs on token-floated projects is that there is often a need to accommodate retail as well as developer audiences. While in the Web2 world, there is a clear separation between retail/user docs and developer portals.
 
 Author
 ******
@@ -186,7 +186,7 @@ Authoring Articles
 
 .. topic:: Note
 
-  For Web3-related articles, see the :ref:`Web3 articles <web3Articles>` section in the blockchain-focused page.
+  For Web3-related articles, see the :ref:`Web3 articles <web3Articles>` section on the blockchain-focused page.
 
 .. list-table:: Authored articles
    :widths: 25 50 25
@@ -202,7 +202,7 @@ Authoring Articles
      - Having cleaned up the API, Upstart commissioned the first article for their blog: an explainer of their product's rationale.
      - product_ rationale
    * - Filespin
-     - Filespin's project required case studies, blog articles, and a website content review. Their product offering can support many sectors; they, therefore, needed to improve their SEO for multiple keywords.
+     - Filespin's project required case studies, blog articles, and a website content review. Their product offering can support many sectors; therefore, they needed to improve their SEO for multiple keywords.
      - image_ delivery
    * -
      -
@@ -282,20 +282,20 @@ Alternatively, clients create cross-over projects along the lines of: "would you
      - As I was already aboard assisting with article creation and case studies, I also reviewed the web content for their relaunch
      - `filespin.io <https://filespin.io/>`_
    * - Ultron
-     - I started as the editor for the lite paper, I went onto write their white paper (as per the Authoring section).
+     - I started as the editor for the lite paper, and I went on to write their white paper (as per the Authoring section).
      - `Ultron Foundation <https://ultron.foundation/>`_
    * - Blockless Network
      - I started as the editor for the Blockless white paper and went on to author the first draft of the yellow paper and to edit various aspects of the brand's copy.
      - `Blockless Network <https://blockless.network/>`_
    * - SWIAT
-     - SWIAT serves the Capital Banking system: a system that is desperate to invest and utilise crypto, but is firmly lodged in older tech. The creative minds at SWIAT came up with a way to hack an atomic swap on chain facilitated by the SWIFT system. They needed an editor for the paper.
+     - SWIAT serves the Capital Banking system: a system that is desperate to invest and utilise crypto, but is firmly lodged in older tech. The creative minds at SWIAT came up with a way to hack an atomic swap onchain facilitated by the SWIFT system. They needed an editor for the paper.
      - `PDF of the paper <https://www.swiat.io/media/swiat_cycros_whitepaper.pdf>`_
 
 
 
 With a Ph.D. in Biology and an undergraduate degree in parasitology, I guess it is no surprise that Daniel from `Parasites without Borders <http://parasiteswithoutborders.com/books/>`_ reached out to ask me to edit in the medical field.
 
-This book_ edit of Parasitic Diseases was a very interesting gig. It required that I recruit and manage a linguist for a pronunciation guide and assist Daniel with the clinical appendix (a new item for Edition 7 of this text). Also, I took on responsibility for indexing; this required that I identify and consolidate duplicates. When we quite literally ground InDesign's indexing option to a halt, I identified an alternative that consumed the PDF. Despite being a supported, paid-for option, it did not provide all the functionality we required. I recruited someone with python skills to customize a couple of scripts for us to provide the outcome we needed -- all in all, a great experience.
+This book_ edit of Parasitic Diseases was a very interesting gig. It required that I recruit and manage a linguist for a pronunciation guide and assist Daniel with the clinical appendix (a new item for Edition 7 of this text). Also, I took on responsibility for indexing; this required that I identify and consolidate duplicates. When we quite literally ground InDesign's indexing option to a halt, I identified an alternative that consumed the PDF. Despite being a supported, paid-for option, it did not provide all the functionality we required. I recruited someone with Python skills to customize a couple of scripts for us to provide the outcome we needed -- all in all, a great experience.
 
 I am the editor for several Ph.D.s and papers in the Biology sphere. This is where I cut my editorial teeth before I became focused on technical writing -- for example, this paper_ in pharmacology.
 
@@ -358,13 +358,13 @@ Not only do I create user guides from scratch, but I also assist with editing th
      - Stark_ is a startup in the blockchain space. I assist with editing their user documentation, articles, and website content. For example, I am currently editing the existing StarkEx documentation (written in Markdown in GitBook).
      - `StarkEx <https://docs.starkware.co/starkex/index.html>`_
    * -
-     - StarkNet leverages Stark's own language Cairo which allows users to demonstrate "proof" of a valid submission to a blockchain such as Ethereum. I am currently editing a section of the existing documentation (written in reStructured text).
+     - StarkNet leverages Stark's own language Cairo which allows users to demonstrate "proof" of a valid submission to a blockchain such as Ethereum. I edited a section of the existing documentation (written in reStructured text).
      - Cairo_
    * - Braze
      - Braze provides a full-service marketing SaaS. They needed someone to update their documentation to align it with their new style guide (written in Markdown).
      - Braze_
    * - `ProofJump <https://proofjump.com/index.php>`_
-     - I separated the Navigation pages from the User Guides to ease the user journey through the documentation. Also, I updated the documentation to reflect the most recent version of the app. This included updating screen shots and User Guide flows.
+     - I separated the Navigation pages from the User Guides to ease the user journey through the documentation. Also, I updated the documentation to reflect the most recent version of the app. This included updating screenshots and User Guide flows.
      - `Documentation <https://proofjump.com/resources/docs/>`_
 
 .. topic:: Note
@@ -444,7 +444,7 @@ Project: Glassix
 Project: Moola
 --------------
 
-Moola supports several financial services products. While the API is currently for internal use only, they hope to market the product. I assisted to clean up the documentation by working with the Indian development team across Slack and GitHub.
+Moola supports several financial services products. While the API is currently for internal use only, they hope to market the product. I assisted in cleaning up the documentation by working with the Indian development team across Slack and GitHub.
 
 
 Project: Qredo
@@ -472,7 +472,7 @@ Led Documentation Chapter for 6 months: streamlined the existing, verbose, dev d
 
 **General Responsibiliites**
 
-- Supporting a developer audience with Docs as code (in Markdown/static site)
+- Supporting a developer audience with docs-as-code (in Markdown/static site)
 - Developing thorough RESTful API specifications for Open API 3.0 with supporting documentation
 - Managing Documentation Chapter as service desk liaising with Branding, Marketing, InfoSec, DevOps, and Product Managers
 - Attending standups, creating and consuming tickets in Jira

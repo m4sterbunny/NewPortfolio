@@ -121,7 +121,7 @@ Written
 Neon EVM
 ########
 
-Product advocacy, examples include:
+Product advocacy; examples include:
 
 - `Parallel processing with an EVM <https://neonevm.org/blog/Parallel-processing-EVM>`_
 - `Blockchain performance <https://neonevm.org/blog/which-performance-metrics-matter>`_
@@ -135,7 +135,7 @@ Partnerships, examples include:
 Panther Protocol
 ################
 
-Product advocacy, examples include:
+Product advocacy; examples include:
 
 - `How zAssets confer privacy <https://blog.pantherprotocol.io/product-insights-how-panther-zassets-enhance-user-privacy-in-defi/>`_
 - `On chain privacy <https://blog.pantherprotocol.io/lets-end-the-taboo-of-on-chain-privacy/>`_
@@ -143,7 +143,7 @@ Product advocacy, examples include:
 Consensys
 #########
 
-Best practises: 
+Best practices: 
 
 - `API key management <https://www.infura.io/blog/post/best-practises-for-infura-api-key-management>`_
 
@@ -152,7 +152,7 @@ Best practises:
 Edited
 ******
 
-- Client `StarkWare`_, examples include:
+- Client `StarkWare`_; examples include:
 
 `StarkGate Alpha <https://medium.com/starkware/starkgate-alpha-35d01d21e3af>`_
 
@@ -188,9 +188,9 @@ Blockless
 
 My tasks included:
 
-- whitepaper -- edit
+- white paper -- edit
 - yellow paper -- write (draft 0)
-- pitch desk -- edit/proof
+- pitch deck -- edit/proof
 - website content -- edit/proof
 - Twitter content -- write
 - FAQ -- edit/proof
@@ -216,17 +216,17 @@ MetaLegends is/was in stealth mode. They intended to create a AAA game with a un
 PiChain Global
 ##############
 
-BrightNode provided tokenomics and white paper support for PiChain Global who intends to revolutionize e-commerce with Web3.
+BrightNode provided tokenomics and white paper support for PiChain Global which intends to revolutionize e-commerce with Web3.
 
 YCLUB
 #####
 
-BrightNode provided tokenomics and white paper support for the YCLUB project. They intended to bring Real World Assets (RWAs) such as megayachts into the NFT realm.
+BrightNode provided tokenomics and white paper support for the YCLUB project. They intended to bring Real World Assets (RWAs), such as megayachts, into the NFT realm.
 
 StarkWare
 *********
 
-`StarkWare <StarkWareSite_>`_ scales L1 blockchains by providing the tech behind Zero Knowledge validity proofs. StarkEx brings transaction affordability to dYdX, Sorare, iMMUTABLE, DeversiFi, and more. StarkNet will provide a highly-competitive L2 layer on Ethereum.
+`StarkWare <StarkWareSite_>`_ scales L1 blockchains by providing the tech behind Zero Knowledge validity proofs. StarkEx brings transaction affordability to dYdX, Sorare, iMMUTABLE, DeversiFi, and more. StarkNet will provide a highly competitive L2 layer on Ethereum.
 
 My tasks include:
 
