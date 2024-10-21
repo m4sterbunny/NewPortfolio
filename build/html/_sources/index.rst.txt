@@ -27,7 +27,7 @@ This site is written in reStructured Text (rST) which is rendered as HTML.
 The :doc:`portfolio <pages/portfolio>` includes links to a Slate site, which uses markdown to render HTML on GitHub pages. This achieves several objectives:
 1) It demonstrates that I can handle static site builders solo (no team here!).
 2) The site consumes API data and displays that in a user-friendly manner (more user friendly than current read the docs offerings!).
-4) It protects my client's sensitive information.
+4) It protects past clients' sensitive information.
 
 Most customers I work with in documentation projects prefer tools that consume files in Markdown and, for APIs, YAML/Markdown blends. I tend to simply use my favorite notepad tool, Sublime to work the docs.
 
