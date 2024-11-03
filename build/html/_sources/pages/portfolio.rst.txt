@@ -115,45 +115,57 @@ Technical Writing
 
     :ref:`Installation <InstallationGuide>`
 
+
+
 .. _APIDocumentation:
 
 API Documentation
 *****************
 
 .. list-table:: Select API Documentation
-   :widths: 25 50 25
+   :widths: 25 50 25 25
    :header-rows: 1
 
    * - Client
      - Notes
      - Docs URL
+     - Deep dive
    * - `MetaMask <https://metamask.io/>`_
-     - Supported multiple network support releases for Open RPC Infura:MetaMask
+     - Supported multiple DIN network support releases for Open RPC Infura:MetaMask
      - `Developer Portal <https://docs.metamask.io/services/>`_
+     - See :ref:`MetaMask <consensys>`
    * - `Qredo <https://qredo.com>`_
      - Supported 3 OpenAPI product releases of monolith to microservices for this Programmatic Web3 and fund management API
      - `Qredo Developer Portal <https://developers.qredo.com>`_
+     - Active
    * - `Neon EVM <https://neonevm.org/>`_
      - Supported Open RPC
      - `Developer Portal <https://neonevm.org/docs/api/neon-api>`_
+     - Active
    * - `SMTP2go <https://www.smtp2go.com/>`_
      - Bulk email manager OpenAPI 3 
      - `Slate API docs <https://smtp2go.github.io/smtp2go.apidocs/#smtp2go-api>`_
+     - Inactive
    * - `Upstart Commerce <https://upstartcommerce.com/>`_
      - e-commerce OpenAPI 3 
      - `Upstart API docs <https://apidocs.upstartcommerce.com/docs/api-docs/8245c7c92d249-authenticate-a-consumer>`_
+     - Active
    * - `Algopix <https://algopix.com/>`_
      - Product research OpenAPI
      - `Algopix API docs <https://docs.algopix.com/docs/algopix-api-documentation/ZG9jOjE3ODE1Mjg1-authentication>`_
+     - Active
    * - `Faria <https://www.faria.org/about>`_
      - Private API docs: Education management system OpenAPI
      - `Faria API docs extract <https://m4sterbunny.github.io/build/#client-3-faria>`_
+     - Active
    * - `Cloud RF <https://cloudrf.com/mapping-mesh-networks/>`_
      - Radio pylon mapping OpenAPI
      - `RF API docs <https://cloudrf.com/documentation/developer/swagger-ui/#/>`_
+     - Inactive
    * - `Skyway Payments <https://skywaypayments.com/>`_
      - Consumer payment OpenAPI targeted at Merchants
      - `Skyway API docs <https://skyway.stoplight.io/docs/skyway-stoplight-doc/branches/main/7ef2485b09b04-skyway-online-payment-product-documentation>`_
+     - Active
 
 .. topic:: Note
 

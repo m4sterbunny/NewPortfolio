@@ -59,12 +59,26 @@ I was the lead or sole technical writer working with Product to build out the fo
 - `Qredo <https://developers.qredo.com>`_: MkDocs
 - `Panther Protocol <https://docs.pantherprotocol.io/docs>`_: GitBook 
 
-With Consensys, as part of a global tech writing team, I have supported:
+.. _consensys:
 
-- `Infura <https://docs.infura.io/api>`_ (private repo)
-- `MetaMask <https://docs.metamask.io/>`_ contributing via `GitHub <https://github.com/MetaMask/metamask-docs>`_
-- `Besu <https://besu.hyperledger.org/>`_ contributing via `GitHub <https://github.com/hyperledger/besu-docs>`_
+In my role as a Senior technical writer at Consensys I supported various product teams across the org. 
 
+My main responsibility was to transition the MetaMask services to support interactive API docs, allowing users to make calls from directly from the docs:
+
+`Infura <https://docs.infura.io/api>`_ (private repo) and `MetaMask <https://docs.metamask.io/>`_ contributing via `GitHub <https://github.com/MetaMask/metamask-docs>`_
+ > Built out yaml-to-JSON-based Open RPC CICD for Linea, Unichain, and began Solana for MetaMask::Infura
+ > Collaborated with frontend team building out a JSON parser to support interactive docs
+ > Responsible for moving docs from markdown/mdx to yaml and replace boilerplate examples with working examples that would run successfully onchain
+ > Collaborated with QA to integrate tests for the examples used
+
+The technical writers in the Office of the CTO worked across multiple product lines.
+- Supported the Linea team to open source the Linea zkEVM
+- Supported the Infura team to release new DIN network docs and duplicate that work on MetaMask
+- Created and fixed Infura tutorials
+- Updated Ethereum docs
+- Became accepted as a Hyperledger Besu maintainer `Besu <https://besu.hyperledger.org/>`_ docs, contributing via `GitHub <https://github.com/hyperledger/besu-docs>`_
+
+Tech writers are the communication layer for tech. We are also the last QA layer. To improve QA, I implemented Vale as a linting layer in place of the default c-spell. This allowed open source projects to provide the style guide, which was otherwise behind RBAC.
 
 Docs Editor
 ***********
@@ -106,6 +120,8 @@ In stealth or already down:
 - `MetaLegends`_ : Writer (draft 0)
 - Lite paper: Ultron_ Foundation: Editor
 - `YCLUB`_: Writer (draft 0 and first version)
+
+
 
 .. _web3Articles:
 
