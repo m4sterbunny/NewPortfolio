@@ -44,30 +44,104 @@
 </aside>
 <div class="toctree-wrapper compound">
 </div>
-<section id="developer-docs">
-<span id="developerdocs"></span><h2>Developer Docs<a class="headerlink" href="#developer-docs" title="Link to this heading">¶</a></h2>
+<section id="web3-developer-docs">
+<span id="developerdocs"></span><h2>Web3 Developer Docs<a class="headerlink" href="#web3-developer-docs" title="Link to this heading">¶</a></h2>
 <p>I was the lead or sole technical writer working with Product to build out the following developer documentation:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://neonevm.org/docs/quick_start">Neon EVM</a>: Docusaurus</p></li>
 <li><p><a class="reference external" href="https://developers.qredo.com">Qredo</a>: MkDocs</p></li>
 <li><p><a class="reference external" href="https://docs.pantherprotocol.io/docs">Panther Protocol</a>: GitBook</p></li>
 </ul>
-<p id="consensys">In my role as a Senior technical writer at Consensys I supported various product teams across the org.</p>
-<p>My main responsibility was to transition the MetaMask services to support interactive API docs, allowing users to make calls from directly from the docs:</p>
+<p>I also worked as part of a larger tech writing team at Consensys.</p>
+<section id="consensys">
+<span id="id1"></span><h3>Consensys<a class="headerlink" href="#consensys" title="Link to this heading">¶</a></h3>
+<p>In my role as a Senior technical writer at Consensys I was part of the global technical writing team providing 24 hour support to Product.</p>
+<p><strong>Main initiative</strong></p>
+<p>I was assigned responsibility to transition the MetaMask services to support interactive API docs, allowing users to make calls from directly from the docs, for example <a class="reference external" href="https://docs.metamask.io/services/reference/linea/json-rpc-methods/eth_call">eth_call</a>.</p>
+<p>To acheive this, I built out yaml-to-JSON-based Open RPC CICD for Linea as a proof of concept. I then expanded this to include Unichain, and began Solana for MetaMask::Infura.</p>
 <dl class="simple">
-<dt><a class="reference external" href="https://docs.infura.io/api">Infura</a> (private repo) and <a class="reference external" href="https://docs.metamask.io/">MetaMask</a> contributing via <a class="reference external" href="https://github.com/MetaMask/metamask-docs">GitHub</a></dt><dd><p>&gt; Built out yaml-to-JSON-based Open RPC CICD for Linea, Unichain, and began Solana for MetaMask::Infura
-&gt; Collaborated with frontend team building out a JSON parser to support interactive docs
-&gt; Responsible for moving docs from markdown/mdx to yaml and replace boilerplate examples with working examples that would run successfully onchain
-&gt; Collaborated with QA to integrate tests for the examples used</p>
+<dt>This required me to:</dt><dd><ul class="simple">
+<li><p>Leverage GPT to hack an extension to the Ethereum (open source) builder to accommodate multichain support (and, later, negotiate that DevOps fix this tech debt)</p></li>
+<li><p>Collaborate with frontend team building out the JSON parser required to support these interactive docs: providing feedback on Figma, and reviewing their PRs</p></li>
+<li><p>Move docs from markdown/mdx to yaml and replace boilerplate examples with working examples that run successfully onchain</p></li>
+<li><p>Collaborate with QA to integrate CICD tests for the examples used: negotiated widening the testing scope to the entire JSON</p></li>
+<li><p>Negotiate a reduced method set to remove illogical methods from the Linea “supported” methods</p></li>
+</ul>
 </dd>
 </dl>
-<p>The technical writers in the Office of the CTO worked across multiple product lines.
-- Supported the Linea team to open source the Linea zkEVM
-- Supported the Infura team to release new DIN network docs and duplicate that work on MetaMask
-- Created and fixed Infura tutorials
-- Updated Ethereum docs
-- Became accepted as a Hyperledger Besu maintainer <a class="reference external" href="https://besu.hyperledger.org/">Besu</a> docs, contributing via <a class="reference external" href="https://github.com/hyperledger/besu-docs">GitHub</a></p>
-<p>Tech writers are the communication layer for tech. We are also the last QA layer. To improve QA, I implemented Vale as a linting layer in place of the default c-spell. This allowed open source projects to provide the style guide, which was otherwise behind RBAC.</p>
+<p><strong>Developer Portals</strong></p>
+<p>My team of technical writers in the Office of the CTO worked across multiple product lines. In my role I:</p>
+<ul class="simple">
+<li><p>Conduced peer reviews for open source and internal contributions</p></li>
+<li><p>Supported the Linea team to open-source the <a class="reference external" href="https://github.com/Consensys/linea-sequencer">Linea zkEVM</a></p></li>
+<li><p>Supported the Infura team to release new DIN network docs and duplicate that work on <a class="reference external" href="https://docs.metamask.io/services/">MetaMask</a></p></li>
+<li><p>Created and fixed Infura tutorials e.g. this <a class="reference external" href="https://docs.infura.io/tutorials/ethereum/authenticate-with-jwt">JWT example</a></p></li>
+<li><p>Fixed MetaMask tutorials, e.g. this <a class="reference external" href="https://github.com/MetaMask/metamask-docs/pull/1470/files">PR</a> updating this <a class="reference external" href="https://docs.metamask.io/services/tutorials/ethereum/send-a-transaction/send-a-transaction-ethers/">tutorial</a></p></li>
+<li><p>Updated the Ethereum docs</p></li>
+<li><p>Became accepted as a Hyperledger <a class="reference external" href="https://besu.hyperledger.org/">Besu</a> open source project maintainer</p></li>
+</ul>
+<p><strong>Implementing Standards</strong></p>
+<p>Tech writers are the communication layer for Product. We are also the final QA layer. To improve QA, I <a class="reference external" href="https://github.com/Consensys/docs-gha/tree/main/spelling">implemented Vale</a> as a linting layer in place of the default c-spell in Docusaurus. This allowed open source projects to access the (otherwise internal) style guide.</p>
+<p>Skills: Technical Documentation · Kanban Methodologies · Negotiation · CICD</p>
+<p>I was laid off from Consensys after 6 months along with the other new technical writer when they made 20% cuts to the employee base.</p>
+</section>
+<section id="qredolink">
+<span id="id2"></span><h3>Qredo<a class="headerlink" href="#qredolink" title="Link to this heading">¶</a></h3>
+<p>Qredo provided a multi-party computation Web3 wallet and vault enabling human::bot threshold signing for large institutions and banks. I led the Documentation Chapter, streamlined the existing, verbose, dev docs portal, applied clean-first and automate principles alongside a strong single-source-of-truth philosophy.</p>
+<p><strong>Implementing Standards</strong></p>
+<ul class="simple">
+<li><p>Negotiated &amp; agreed a JSON naming convention with engineering, FE, and BE teams</p></li>
+<li><p>Implemented linting using Vale (Spelling, Grammar, Term variants) and tools to validate API 3.0 spec</p></li>
+<li><p>Supported each API product with a downloadable, human-readable API spec (fka Swagger) compliant to OpenAPI 3.0</p></li>
+</ul>
+<p><strong>Developer Portal</strong></p>
+<ul class="simple">
+<li><p>Negotiated &amp; agreed on a tech stack with Marketing, Customer care, and Product for the new Documentation and Help Centre site</p></li>
+<li><p>Contributed to porting existing content to new wireframe and populating new dev portal (1 month)</p></li>
+<li><p>Prioritized content production pipeline (6 months)</p></li>
+<li><p>Contributed to content: supported the release of 3 services as developer-facing documentation (3 months)</p></li>
+<li><p>Rendered &amp; released API specs via dev portal</p></li>
+<li><p>Worked with DevOps to pipe API specs from master repos to communication portal</p></li>
+<li><p>First-pass iterate over 60% of existing dev portal content</p></li>
+</ul>
+<p><strong>General Responsibiliites</strong></p>
+<ul class="simple">
+<li><p>Supporting a developer audience with docs-as-code (in Markdown/static site)</p></li>
+<li><p>Developing thorough RESTful API specifications for Open API 3.0 with supporting documentation</p></li>
+<li><p>Managing Documentation Chapter as service desk liaising with Branding, Marketing, InfoSec, DevOps, and Product Managers</p></li>
+<li><p>Attending standups, creating and consuming tickets in Jira</p></li>
+<li><p>Recruitment of technical writers</p></li>
+</ul>
+<p>Skills: Technical Documentation · Agile Methodologies · Negotiation · Scrum</p>
+<p>I was laid off from Qredo after 6 months; they cut all bar 4 employees and sold the business.</p>
+</section>
+<section id="neonlink">
+<span id="id3"></span><h3>Neon EVM<a class="headerlink" href="#neonlink" title="Link to this heading">¶</a></h3>
+<p>Neon EVM released the first EVM on Solana. As the sole technical writer, I led developer documentation: supporting mainnet launch. I built out their API documentation in Docusaurus with OpenRPC support for Neon’s RPC API.</p>
+<p><strong>General Responsibiliites</strong></p>
+<ul class="simple">
+<li><p>Supporting a developer audience with docs-as-code (in Markdown/Docusaurus static site)</p></li>
+<li><p>Developing thorough Open RPC API specifications</p></li>
+<li><p>Managing docs as service desk to Dev Rels and Product Managers</p></li>
+</ul>
+<p><strong>Marketing Responsibiliites</strong></p>
+<p>My dual role included supporting Marketing: I was the main editor and writer supporting launch, collaborating with the Marketing team to create content for various platforms (Blog, Medium, Twitter, etc.). Per our Brand24 data, total unique views 870 mil via Hokku PR, organic TUV at 1.8 billion. Examples of my writing are available in <a class="reference internal" href="#web3articles"><span class="std std-ref">Articles</span></a>.</p>
+</section>
+<section id="id4">
+<h3>Panther Protocol<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<p>Panther Protocol is working toward zero-knowledge, compliant DeFi transactions. Similarly to Neon EVM, I supported Product with developer documentation and Marketing with a retail-accessible component to the same docs and retail-level articles.</p>
+<p><strong>General Responsibiliites</strong></p>
+<ul class="simple">
+<li><p>Updating GitBook docs using GitHub sync/Markdown, e.g. restructure and rewrite to provide a <a class="reference external" href="https://docs.pantherprotocol.io/docs/panther-core/testnet#testnet-rewards">single entry-point</a> for dApp community testers</p></li>
+<li><p>How-to videos: working with branding team for high-production Get Started for retail test dApp users</p></li>
+</ul>
+<p><strong>Marketing Responsibiliites</strong></p>
+<p>Examples of my writing are available in <a class="reference internal" href="#web3articles"><span class="std std-ref">Articles</span></a>.</p>
+<aside class="topic">
+<p class="topic-title">Note</p>
+<p>See my general portfolio for more <a class="reference internal" href="portfolio.html#apidocumentation"><span class="std std-ref">API-related developer docs</span></a></p>
+</aside>
+</section>
 <section id="docs-editor">
 <h3>Docs Editor<a class="headerlink" href="#docs-editor" title="Link to this heading">¶</a></h3>
 <p>For StarkWare, I edited large components of the <a class="reference external" href="https://docs.starkware.co/starkex/index.html">StarkExV3</a> documentation. Writing in Markdown; building in GitBook.</p>
@@ -110,8 +184,8 @@
 <li><p>Novice introduction for <a class="reference internal" href="#tom-altman">Tom Altman</a>: <a class="reference external" href="http://tomaltman.com/brave-new-blockchain-world/">A Brave New Blockchain World</a>.</p></li>
 <li><p>Developer introduction to the <a class="reference external" href="https://www.talent.io/p/fr-blog/elliptic-curves-and-bitcoin">crypto behind Bitcoin</a> for <a class="reference external" href="https://www.talent.io/p/en-gb/home">Talent</a>.</p></li>
 </ul>
-<section id="id3">
-<h4>Neon EVM<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h4>
+<section id="id7">
+<h4>Neon EVM<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h4>
 <p>Product advocacy; examples include:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://neonevm.org/blog/Parallel-processing-EVM">Parallel processing with an EVM</a></p></li>
@@ -124,16 +198,16 @@
 <li><p><a class="reference external" href="https://neonevm.org/blog/partnership-poolz-finance">Ledger and Poolz</a></p></li>
 </ul>
 </section>
-<section id="id4">
-<h4>Panther Protocol<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h4>
+<section id="id8">
+<h4>Panther Protocol<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h4>
 <p>Product advocacy; examples include:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://blog.pantherprotocol.io/product-insights-how-panther-zassets-enhance-user-privacy-in-defi/">How zAssets confer privacy</a></p></li>
 <li><p><a class="reference external" href="https://blog.pantherprotocol.io/lets-end-the-taboo-of-on-chain-privacy/">On chain privacy</a></p></li>
 </ul>
 </section>
-<section id="id5">
-<h4>Consensys<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h4>
+<section id="id9">
+<h4>Consensys<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h4>
 <p>Best practices:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.infura.io/blog/post/best-practises-for-infura-api-key-management">API key management</a></p></li>
@@ -154,7 +228,7 @@
 </section>
 </section>
 <section id="clients">
-<span id="id6"></span><h2>Clients<a class="headerlink" href="#clients" title="Link to this heading">¶</a></h2>
+<span id="id10"></span><h2>Clients<a class="headerlink" href="#clients" title="Link to this heading">¶</a></h2>
 <p>I distinguish “clients” from permanent employers such as Qredo, Consensys, Neon EVM, and Panther Protocol based on the contract I sign. Client essentially indicates a non-exclusive arrangement.</p>
 <section id="blockless">
 <h3>Blockless<a class="headerlink" href="#blockless" title="Link to this heading">¶</a></h3>
@@ -247,7 +321,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="portfolio.html">Technical Writing</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Blockchain &amp; Web3</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#developer-docs">Developer Docs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#web3-developer-docs">Web3 Developer Docs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#yellow-paper">Yellow Paper</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#white-paper">White Paper</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#articles">Articles</a></li>
