@@ -133,45 +133,43 @@ API Documentation
    * - `MetaMask <https://metamask.io/>`_
      - Supported multiple DIN network support releases for Open RPC Infura:MetaMask
      - `Developer Portal <https://docs.metamask.io/services/>`_
-     - See :ref:`MetaMask <consensys>`
+     - :ref:`Go deeper <consensys>`
    * - `Qredo <https://qredo.com>`_
      - Supported 3 OpenAPI product releases of monolith to microservices for this Programmatic Web3 and fund management API
      - `Qredo Developer Portal <https://developers.qredo.com>`_
-     - Active
+     - :ref:`Go deeper <qredolink>`
    * - `Neon EVM <https://neonevm.org/>`_
      - Supported Open RPC
      - `Developer Portal <https://neonevm.org/docs/api/neon-api>`_
-     - Active
+     - :ref:`Go deeper <neonlink>`
    * - `SMTP2go <https://www.smtp2go.com/>`_
      - Bulk email manager OpenAPI 3 
      - `Slate API docs <https://smtp2go.github.io/smtp2go.apidocs/#smtp2go-api>`_
-     - Inactive
+     - :ref:`Go deeper <smtp2golink>`
    * - `Upstart Commerce <https://upstartcommerce.com/>`_
      - e-commerce OpenAPI 3 
      - `Upstart API docs <https://apidocs.upstartcommerce.com/docs/api-docs/8245c7c92d249-authenticate-a-consumer>`_
-     - Active
+     - :ref:`Go deeper <upstartlink>`
    * - `Algopix <https://algopix.com/>`_
      - Product research OpenAPI
      - `Algopix API docs <https://docs.algopix.com/docs/algopix-api-documentation/ZG9jOjE3ODE1Mjg1-authentication>`_
-     - Active
+     - :ref:`Go deeper <algopixlink>`
    * - `Faria <https://www.faria.org/about>`_
      - Private API docs: Education management system OpenAPI
      - `Faria API docs extract <https://m4sterbunny.github.io/build/#client-3-faria>`_
-     - Active
+     - :ref:`Go deeper <farialink>`
    * - `Cloud RF <https://cloudrf.com/mapping-mesh-networks/>`_
      - Radio pylon mapping OpenAPI
      - `RF API docs <https://cloudrf.com/documentation/developer/swagger-ui/#/>`_
-     - Inactive
+     - :ref:`Go deeper <cloudrflink>`
    * - `Skyway Payments <https://skywaypayments.com/>`_
      - Consumer payment OpenAPI targeted at Merchants
      - `Skyway API docs <https://skyway.stoplight.io/docs/skyway-stoplight-doc/branches/main/7ef2485b09b04-skyway-online-payment-product-documentation>`_
-     - Active
+     - :ref:`Go deeper <skywaylink>`
 
 .. topic:: Note
 
   While I attempt to link to API documents that I edited/approved directly, the companies maintain a living document that may have endpoints that I have not handled. Similarly, documentation may be built out after my engagement is completed.
-
-See :ref:`apiprojects` below for a deeper look at the clients and their requirements.
 
 
 Developer Documentation
@@ -212,16 +210,16 @@ Authoring Articles
      - Lottie_ article
    * - Filespin
      - Filespin's project required case studies, blog articles, and a website content review. Their product offering can support many sectors; therefore, they needed to improve their SEO for multiple keywords.
-     - image_ delivery
+     - Image_ delivery
    * -
      -
      - DAM_ (digital asset management)
    * -
      -
-     - shopping_ for a DAM
+     - Shopping_ for a DAM
    * - Podbean
      - Podbean engaged me to write case studies, but when a high-value interview was passed my way, I simply had to write it up in 2 formats; a blog and a case study. John was happy with the outcome
-     - sticky_ listening
+     - Sticky_ listening
    * - oneclick
      - oneclick provides cloud SaaS options in the European market; they have had me write several articles which are translated into their target market languages.
      - Docker_
@@ -297,16 +295,15 @@ Alternatively, clients create cross-over projects along the lines of: "would you
      - I started as the editor for the Blockless white paper and went on to author the first draft of the yellow paper and to edit various aspects of the brand's copy.
      - `Blockless Network <https://blockless.network/>`_
    * - SWIAT
-     - SWIAT serves the Capital Banking system: a system that is desperate to invest and utilise crypto, but is firmly lodged in older tech. The creative minds at SWIAT came up with a way to hack an atomic swap onchain facilitated by the SWIFT system. They needed an editor for the paper.
+     - SWIAT serves the Capital Banking system: a system that is desperate to invest and utilize crypto, but is firmly lodged in older tech. The creative minds at SWIAT came up with a way to hack an atomic swap onchain facilitated by the SWIFT system. They needed an editor for the paper.
      - `PDF of the paper <https://www.swiat.io/media/swiat_cycros_whitepaper.pdf>`_
-
 
 
 With a Ph.D. in Biology and an undergraduate degree in parasitology, I guess it is no surprise that Daniel from `Parasites without Borders <http://parasiteswithoutborders.com/books/>`_ reached out to ask me to edit in the medical field.
 
-This book_ edit of Parasitic Diseases was a very interesting gig. It required that I recruit and manage a linguist for a pronunciation guide and assist Daniel with the clinical appendix (a new item for Edition 7 of this text). Also, I took on responsibility for indexing; this required that I identify and consolidate duplicates. When we quite literally ground InDesign's indexing option to a halt, I identified an alternative that consumed the PDF. Despite being a supported, paid-for option, it did not provide all the functionality we required. I recruited someone with Python skills to customize a couple of scripts for us to provide the outcome we needed -- all in all, a great experience.
+This book_ edit of Parasitic Diseases was, unusually, in my field of expertise. It also required that I recruit and manage a linguist for a pronunciation guide and assist Daniel with the clinical appendix (a new item for Edition 7 of this text). Also, I took on responsibility for indexing; this required that identifying and consolidating duplicates. When we, quite literally, ground InDesign's indexing option to a halt, I identified an alternative that consumed the PDF. Despite being a supported, paid-for option, it did not provide all the functionality we required. Therefore, I recruited someone with Python skills to customize a couple of scripts for us to provide the outcome we needed -- all in all, a great experience.
 
-I am the editor for several Ph.D.s and papers in the Biology sphere. This is where I cut my editorial teeth before I became focused on technical writing -- for example, this paper_ in pharmacology.
+I am the editor for several PhDs and papers in the Biology sphere. This is where I cut my editorial teeth before I became focused on technical writing -- for example, this paper_ in pharmacology.
 
 I was also involved in the NGO sector in South Africa. Here I assisted with research_ and editing_: especially the editing of data-driven reports.
 
@@ -382,17 +379,30 @@ Not only do I create user guides from scratch, but I also assist with editing th
 
 .. _InstallationGuide:
 
-Installation Guide
-------------------
+Installation Guides
+-------------------
 
-Simple installation how-tos are essential for the sanity of everyone, wouldn't you agree?! I created this for NetworQ_.
+Simple installation how-tos are essential for the sanity of everyone, wouldn't you agree?! 
 
-I also suggested the branding to NetworQ from Networkq. I like it; I hope it stuck!
+My first ever installation guide included proposed a rebranding to NetworQ_ from Networq. I see it stuck!
+
+Several of my :ref:`Infura/MetaMask <consensys>` updates follow basic installations steps too.
+
 
 .. _apiprojects:
 
 API Projects
 ************
+
+.. _algopixlink:
+
+Project: Algopix
+----------------
+
+Algopix engaged me to provide high-level overviews and detailed API specs for their eCommerce comparison product.
+
+
+.. _caredovelink:
 
 Project: Caredove
 -----------------
@@ -407,6 +417,8 @@ Once the YAML could be consumed and rendered by Stoplight, I built up what I cal
 
 I also mapped the relevant fields of these schemas back to the `FHIR specification <https://www.hl7.org/fhir/datatypes.html>`_ that an endpoint is compliant with.
 
+.. _cloudrflink:
+
 Project: Cloud RF
 -----------------
 
@@ -418,6 +430,7 @@ I did, however, step away from the high-level documentation, which was initially
 
 Cloud RFs API is `publicly available <https://cloudrf.com/documentation/developer/swagger-ui/#/>`_. Also I provided a brief introduction and describe a `Cloud RF endpoint <https://m4sterbunny.github.io/build/#client-1-cloud-rf>`_ on my demo 3-pane site.
 
+.. _cybertonicalink:
 
 Project: Cybertonica
 --------------------
@@ -428,83 +441,65 @@ After that, I assisted with the API for the Shopify dashboard that provides simi
 
 Working under an NDA, I am not able to expose this project further.
 
+.. _dairyvetslink:
+
 Project: Dairy Vets
 -------------------
 
-Dairy Vets had a non-compliant API and were keen to get it to render in Redoc.ly. I worked it through Redoc.ly's linter (with the lint requirements customised to "minimal") until it was compliant enough to render. Where compromises were made to achieve this, I logged "conversations" on the PR in GitHub to prevent any issues from being dropped.
+Dairy Vets had a non-compliant API and were keen to get it to render in Redoc.ly. I worked it through Redoc.ly's linter (with the lint requirements customized to "minimal") until it was compliant enough to render. Where compromises were made to achieve this, I logged "conversations" on the PR in GitHub to prevent any issues from being dropped.
+
+.. _distdevslink:
 
 Project: Distributed Devs
 -------------------------
 
 Distributed Devs, a British team, engaged me to write up an API for handover to other development teams. I took a less formal approach to allow this to be a much smaller investment and kept all the details in the Readme of the related repositories. Pleased with my efficiencies, they engaged me in other projects, such as high-level architecture documentation for products supporting the insurance sector (applying AI tools on insurance claims). Again, I am under NDAs and can not expose more about this client.
 
+.. _farialink:
+
 Project: Faria
 --------------
 
-The largest API set that I have cleaned is for Faria, for whom I cleaned multiple APIs. There is no intention to make these API documents publicly available. I have, therefore, provided a brief introduction and the smallest possible Faria_ endpoint specification.
+The largest API set that I have cleaned is for Faria, for whom I cleaned multiple APIs. There is no intention to make these API documents publicly available. I have, therefore, provided a brief introduction and the smallest possible `Faria endpoint specification <https://m4sterbunny.github.io/build/#client-3-faria>`_.
 
-The docs are now fully compliant and consistent (US English for the APIs, UK English for the high-level client support documentation).
+Faria's docs are now fully compliant and consistent (US English for the APIs, UK English for the high-level client support documentation: yes that is something I pushed back against, no I didn't win that one!).
+
+.. _glassixlink:
 
 Project: Glassix
 ----------------
 
 `Glassix <https://docs.glassix.com/>`_ needed assistance breaking out the user guides from the API reference, and expanding those guides to better support the developer audience.
 
-Project: Moola
---------------
+.. _moolalink:
 
-Moola supports several financial services products. While the API is currently for internal use only, they hope to market the product. I assisted in cleaning up the documentation by working with the Indian development team across Slack and GitHub.
+.. Project: Moola
+.. --------------
 
+.. Moola supports several financial services products. While the API is currently for internal use only, they hope to market the product. I assisted in cleaning up the documentation by working with the Indian development team across Slack and GitHub.
 
-Project: Qredo
---------------
-
-Led Documentation Chapter for 6 months: streamlined the existing, verbose, dev docs portal, applied clean-first and automate principles alongside a strong single-source-of-truth philosophy.
-
-**Implementing Standards**
-
-
-- Negotiated & agreed a JSON naming convention with engineering FE and BE teams
-- Implemented linting using Vale (Spelling, Grammar, Term variants) and tools to validate API 3.0 spec
-- Supported each API product with a downloadable, human-readable API spec (fka Swagger) compliant to OPEN API 3.0
-
-**Developer Portal**
-
-
-- Negotiated & agreed on a tech stack with Marketing, Customer care, and Product for the new Documentation and Help Centre site (3 months)
-- Contributed to porting existing content to new wireframe and populating new dev portal (1 month)
-- Prioritized content production pipeline (6 months)
-- Contributed to content: supported the release of 3 services as developer-facing documentation (3 months)
-- Rendered & released API specs via dev portal
-- Worked with DevOps to pipe API specs from master repos to communication portal
-- First-pass iterate over 60% of existing dev portal content
-
-**General Responsibiliites**
-
-- Supporting a developer audience with docs-as-code (in Markdown/static site)
-- Developing thorough RESTful API specifications for Open API 3.0 with supporting documentation
-- Managing Documentation Chapter as service desk liaising with Branding, Marketing, InfoSec, DevOps, and Product Managers
-- Attending standups, creating and consuming tickets in Jira
-- RecruitmentLed Documentation Chapter for 6 months.
-
-Skills: Technical Documentation · user documenation · Agile Methodologies · Negotiation · Scrum
+.. _skywaylink:
 
 Project: Skyway
 ---------------
 
-Skyway_  Payments:  I created the high-level documents, took the JSON descriptions of endpoints from confluence, and generated an Open API 3.0-compliant spec. In addition, I negotiated redesign of schemas and improved property names to simplify the API for the user.
+Skyway_  Payments: I created the high-level documents, took the JSON descriptions of endpoints from confluence, and generated an Open API 3.0-compliant spec. In addition, I negotiated redesign of schemas and improved property names to simplify the API for the user.
+
+.. _smtp2golink:
 
 Project: SMTP2GO
 ----------------
 
-Initially, the documentation site was built in Redoc.ly. I edited and augmented the existing specification by working directly with the YAML. The team then moved to the single-page site builder Slate. I worked with the developers across Asana, Slack, and GitHub until we had the functionality they required.
+SMTP2GO supports mass email marketing campaigns. Initially, the documentation site was built in Redoc.ly. I edited and augmented the existing specification by working directly with the YAML. The team then moved to the single-page site builder, Slate. I worked with the developers across Asana, Slack, and GitHub until we had the functionality the Product team required.
+
+.. _upstartlink:
 
 Project: Upstart Commerce
 -------------------------
 
-I cleaned up the YAML/Swagger to ensure that the API is described correctly and assists the user effectively. I also "proofed", i.e. I fixed those issues that affect quality, such as ensuring consistency of the English language variant and style applied.
+Upstart Commerce provides a complete eCommerce platform from sales, to returns. I cleaned up the YAML/Swagger to ensure that the API is described correctly and assists the user effectively. I also "proofed", i.e. I fixed those issues that affect quality, such as ensuring consistency of the English language variant and style applied. Those niggling queries such as "does boolean mean 1 or True?" were smoothed away with the application of types, defaults, and examples.
 
-Upstart_ Commerce has its Open API 3.0 documentation publicly available. This is one of the larger API sets that I cleaned up. Working with the Russian dev team across Slack, the docs are now fully compliant and consistent (US English).
+Upstart_ Commerce has its Open API 3.0 documentation publicly available. This is one of the larger API sets that I cleaned up. Working with the Ukrainian dev team across Slack, the docs are now fully compliant and consistent (US English).
 
 
 

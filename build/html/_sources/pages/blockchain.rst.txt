@@ -50,8 +50,8 @@ Blockchain & Web3
 
 .. _developerdocs:
 
-Developer Docs
---------------
+Web3 Developer Docs
+-------------------
 
 I was the lead or sole technical writer working with Product to build out the following developer documentation:
 
@@ -59,26 +59,119 @@ I was the lead or sole technical writer working with Product to build out the fo
 - `Qredo <https://developers.qredo.com>`_: MkDocs
 - `Panther Protocol <https://docs.pantherprotocol.io/docs>`_: GitBook 
 
+I also worked as part of a larger tech writing team at Consensys.
+
 .. _consensys:
 
-In my role as a Senior technical writer at Consensys I supported various product teams across the org. 
+Consensys
+*********
 
-My main responsibility was to transition the MetaMask services to support interactive API docs, allowing users to make calls from directly from the docs:
+In my role as a Senior technical writer at Consensys I was part of the global technical writing team providing 24 hour support to Product. 
 
-`Infura <https://docs.infura.io/api>`_ (private repo) and `MetaMask <https://docs.metamask.io/>`_ contributing via `GitHub <https://github.com/MetaMask/metamask-docs>`_
- > Built out yaml-to-JSON-based Open RPC CICD for Linea, Unichain, and began Solana for MetaMask::Infura
- > Collaborated with frontend team building out a JSON parser to support interactive docs
- > Responsible for moving docs from markdown/mdx to yaml and replace boilerplate examples with working examples that would run successfully onchain
- > Collaborated with QA to integrate tests for the examples used
+**Main initiative**
 
-The technical writers in the Office of the CTO worked across multiple product lines.
-- Supported the Linea team to open source the Linea zkEVM
-- Supported the Infura team to release new DIN network docs and duplicate that work on MetaMask
-- Created and fixed Infura tutorials
-- Updated Ethereum docs
-- Became accepted as a Hyperledger Besu maintainer `Besu <https://besu.hyperledger.org/>`_ docs, contributing via `GitHub <https://github.com/hyperledger/besu-docs>`_
+I was assigned responsibility to transition the MetaMask services to support interactive API docs, allowing users to make calls from directly from the docs, for example `eth_call <https://docs.metamask.io/services/reference/linea/json-rpc-methods/eth_call>`_.
 
-Tech writers are the communication layer for tech. We are also the last QA layer. To improve QA, I implemented Vale as a linting layer in place of the default c-spell. This allowed open source projects to provide the style guide, which was otherwise behind RBAC.
+To acheive this, I built out yaml-to-JSON-based Open RPC CICD for Linea as a proof of concept. I then expanded this to include Unichain, and began Solana for MetaMask::Infura.
+
+This required me to: 
+   * Leverage GPT to hack an extension to the Ethereum (open source) builder to accommodate multichain support (and, later, negotiate that DevOps fix this tech debt)
+   * Collaborate with frontend team building out the JSON parser required to support these interactive docs: providing feedback on Figma, and reviewing their PRs
+   * Move docs from markdown/mdx to yaml and replace boilerplate examples with working examples that run successfully onchain
+   * Collaborate with QA to integrate CICD tests for the examples used: negotiated widening the testing scope to the entire JSON
+   * Negotiate a reduced method set to remove illogical methods from the Linea "supported" methods
+
+**Developer Portals**
+
+My team of technical writers in the Office of the CTO worked across multiple product lines. In my role I:
+
+- Conduced peer reviews for open source and internal contributions
+- Supported the Linea team to open-source the `Linea zkEVM <https://github.com/Consensys/linea-sequencer>`_
+- Supported the Infura team to release new DIN network docs and duplicate that work on `MetaMask <https://docs.metamask.io/services/>`_
+- Created and fixed Infura tutorials e.g. this `JWT example <https://docs.infura.io/tutorials/ethereum/authenticate-with-jwt>`_
+- Fixed MetaMask tutorials, e.g. this `PR <https://github.com/MetaMask/metamask-docs/pull/1470/files>`_ updating this `tutorial <https://docs.metamask.io/services/tutorials/ethereum/send-a-transaction/send-a-transaction-ethers/>`_
+- Updated the Ethereum docs 
+- Became accepted as a Hyperledger `Besu <https://besu.hyperledger.org/>`_ open source project maintainer 
+
+**Implementing Standards**
+
+Tech writers are the communication layer for Product. We are also the final QA layer. To improve QA, I `implemented Vale <https://github.com/Consensys/docs-gha/tree/main/spelling>`_ as a linting layer in place of the default c-spell in Docusaurus. This allowed open source projects to access the (otherwise internal) style guide.
+
+Skills: Technical Documentation · Kanban Methodologies · Negotiation · CICD
+
+I was laid off from Consensys after 6 months along with the other new technical writer when they made 20% cuts to the employee base. 
+
+.. _qredolink:
+
+Qredo
+*****
+
+Qredo provided a multi-party computation Web3 wallet and vault enabling human::bot threshold signing for large institutions and banks. I led the Documentation Chapter, streamlined the existing, verbose, dev docs portal, applied clean-first and automate principles alongside a strong single-source-of-truth philosophy.
+
+**Implementing Standards**
+
+- Negotiated & agreed a JSON naming convention with engineering, FE, and BE teams
+- Implemented linting using Vale (Spelling, Grammar, Term variants) and tools to validate API 3.0 spec
+- Supported each API product with a downloadable, human-readable API spec (fka Swagger) compliant to OpenAPI 3.0
+
+**Developer Portal**
+
+- Negotiated & agreed on a tech stack with Marketing, Customer care, and Product for the new Documentation and Help Centre site
+- Contributed to porting existing content to new wireframe and populating new dev portal (1 month)
+- Prioritized content production pipeline (6 months)
+- Contributed to content: supported the release of 3 services as developer-facing documentation (3 months)
+- Rendered & released API specs via dev portal
+- Worked with DevOps to pipe API specs from master repos to communication portal
+- First-pass iterate over 60% of existing dev portal content
+
+**General Responsibiliites**
+
+- Supporting a developer audience with docs-as-code (in Markdown/static site)
+- Developing thorough RESTful API specifications for Open API 3.0 with supporting documentation
+- Managing Documentation Chapter as service desk liaising with Branding, Marketing, InfoSec, DevOps, and Product Managers
+- Attending standups, creating and consuming tickets in Jira
+- Recruitment of technical writers
+
+Skills: Technical Documentation · Agile Methodologies · Negotiation · Scrum
+
+I was laid off from Qredo after 6 months; they cut all bar 4 employees and sold the business. 
+
+.. _neonlink:
+
+Neon EVM
+********
+
+Neon EVM released the first EVM on Solana. As the sole technical writer, I led developer documentation: supporting mainnet launch. I built out their API documentation in Docusaurus with OpenRPC support for Neon’s RPC API.
+
+**General Responsibiliites**
+
+- Supporting a developer audience with docs-as-code (in Markdown/Docusaurus static site)
+- Developing thorough Open RPC API specifications
+- Managing docs as service desk to Dev Rels and Product Managers
+
+**Marketing Responsibiliites**
+
+My dual role included supporting Marketing: I was the main editor and writer supporting launch, collaborating with the Marketing team to create content for various platforms (Blog, Medium, Twitter, etc.). Per our Brand24 data, total unique views 870 mil via Hokku PR, organic TUV at 1.8 billion. Examples of my writing are available in :ref:`Articles <web3Articles>`.
+
+.. _ pantherlink:
+
+Panther Protocol
+****************
+
+Panther Protocol is working toward zero-knowledge, compliant DeFi transactions. Similarly to Neon EVM, I supported Product with developer documentation and Marketing with a retail-accessible component to the same docs and retail-level articles.
+
+**General Responsibiliites**
+
+- Updating GitBook docs using GitHub sync/Markdown, e.g. restructure and rewrite to provide a `single entry-point <https://docs.pantherprotocol.io/docs/panther-core/testnet#testnet-rewards>`_ for dApp community testers 
+- How-to videos: working with branding team for high-production Get Started for retail test dApp users
+
+**Marketing Responsibiliites**
+
+Examples of my writing are available in :ref:`Articles <web3Articles>`.
+
+.. topic:: Note
+
+  See my general portfolio for more :ref:`API-related developer docs <APIDocumentation>`
 
 Docs Editor
 ***********
