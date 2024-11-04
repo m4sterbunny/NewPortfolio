@@ -77,5 +77,3 @@ Accounts
 
     :ref:`Clients <clients>`
 
-
-export VALE_CONFIG_PATH="/Users/harriebickle/GitHub/docs-gha/spelling/.vale.ini"
