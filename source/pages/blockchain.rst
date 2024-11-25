@@ -148,6 +148,7 @@ Neon EVM released the first EVM on Solana. As the sole technical writer, I led d
 - Supporting a developer audience with docs-as-code (in Markdown/Docusaurus static site)
 - Developing thorough Open RPC API specifications
 - Managing docs as service desk to Dev Rels and Product Managers
+- Producing :ref:`Video Documentation <Videos>` to encourage use of the product
 
 **Marketing Responsibilities**
 
@@ -163,7 +164,7 @@ Panther Protocol is working toward zero-knowledge, compliant DeFi transactions. 
 **General Responsibilities**
 
 - Updating GitBook docs using GitHub sync/Markdown, e.g. restructure and rewrite to provide a `single entry-point <https://docs.pantherprotocol.io/docs/panther-core/testnet#testnet-rewards>`_ for dApp community testers 
-- How-to videos: working with branding team for high-production Get Started for retail test dApp users
+- :ref:`How-to videos <Videos>`: working with branding team for high-production Get Started for retail test dApp users (note, I have shared the pre-production version, not the music tracked and branded version).
 
 **Marketing Responsibilities**
 
