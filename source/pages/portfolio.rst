@@ -107,11 +107,13 @@ Technical Writing
 
     :ref:`Articles <authorarticles>`
 
+    :ref:`Video Documentation <Videos>`  
+
     :ref:`Case Studies <casestudies>`
 
     :ref:`Editing <edits>`
 
-    :ref:`User Docs <UserDocumentation>`
+    :ref:`User Docs <UserDocumentation>`  
 
     :ref:`Installation <InstallationGuide>`
 
@@ -226,6 +228,25 @@ Authoring Articles
    * - talent.io
      - Talent.io, a recruitment platform, has created a novel marketing approach. They provide their recruits with conferencing and networking opportunities. They provide pre-retreat talks to warm up the enthusiasm. I was asked to convert a couple of these talks into short-form blog items.
      - Feature_Development_
+
+
+.. _Videos:
+
+Video Documentation
+*******************
+
+Not everyone wants to read, some folk want to see the action. To support this, I use Techsmith's Camtasia and some Jabra headphones. The sound quality would be much better if anyone gave me a recording budget. One day!
+
+For Neon EVM, I created a "retail" video series for our mostly-developer based audience:
+
+- `Get Started <https://youtu.be/0rK2Oonigik>`_
+- `Validate transactions with blockchain explorers <https://youtu.be/tNXRDBmtOPQ>`_
+- `Create an NFT collection with thirdweb <https://youtu.be/lXjtSQhj4Cc>`_
+
+Similarly, for Panther Protocol, I created a "retail" video series for our mostly-developer based audience to introduce our testnet dApp:
+
+- `Sign up to the dApp <https://youtu.be/deqCKhTxcpA>`_
+- `Transact in the dApp <https://youtu.be/a63UNY-kId8>`_
 
 .. _casestudies:
 

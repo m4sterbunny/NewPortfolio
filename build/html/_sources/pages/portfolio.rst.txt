@@ -107,11 +107,13 @@ Technical Writing
 
     :ref:`Articles <authorarticles>`
 
+    :ref:`Video Documentation <Videos>`  
+
     :ref:`Case Studies <casestudies>`
 
     :ref:`Editing <edits>`
 
-    :ref:`User Docs <UserDocumentation>`
+    :ref:`User Docs <UserDocumentation>`  
 
     :ref:`Installation <InstallationGuide>`
 
@@ -227,6 +229,25 @@ Authoring Articles
      - Talent.io, a recruitment platform, has created a novel marketing approach. They provide their recruits with conferencing and networking opportunities. They provide pre-retreat talks to warm up the enthusiasm. I was asked to convert a couple of these talks into short-form blog items.
      - Feature_Development_
 
+
+.. _Videos:
+
+Video Documentation
+*******************
+
+Not everyone wants to read, some folk want to see the action. To support this, I use Techsmith's Camtasia and some Jabra headphones. The sound quality would be much better if anyone gave me a recording budget. One day!
+
+For Neon EVM, I created a "retail" video series for our mostly-developer based audience:
+
+- `Get Started <https://youtu.be/0rK2Oonigik>`_
+- `Validate transactions with blockchain explorers <https://youtu.be/tNXRDBmtOPQ>`_
+- `Create an NFT collection with thirdweb <https://youtu.be/lXjtSQhj4Cc>`_
+
+Similarly, for Panther Protocol, I created a "retail" video series for our mostly-developer based audience to introduce our testnet dApp:
+
+- `Sign up to the dApp <https://youtu.be/deqCKhTxcpA>`_
+- `Transact in the dApp <https://youtu.be/a63UNY-kId8>`_
+
 .. _casestudies:
 
 Authoring Case Studies
@@ -295,15 +316,15 @@ Alternatively, clients create cross-over projects along the lines of: "would you
      - I started as the editor for the Blockless white paper and went on to author the first draft of the yellow paper and to edit various aspects of the brand's copy.
      - `Blockless Network <https://blockless.network/>`_
    * - SWIAT
-     - SWIAT serves the Capital Banking system: a system that is desperate to invest and utilise crypto, but is firmly lodged in older tech. The creative minds at SWIAT came up with a way to hack an atomic swap onchain facilitated by the SWIFT system. They needed an editor for the paper.
+     - SWIAT serves the Capital Banking system: a system that is desperate to invest and utilize crypto, but is firmly lodged in older tech. The creative minds at SWIAT came up with a way to hack an atomic swap onchain facilitated by the SWIFT system. They needed an editor for the paper.
      - `PDF of the paper <https://www.swiat.io/media/swiat_cycros_whitepaper.pdf>`_
 
 
 With a Ph.D. in Biology and an undergraduate degree in parasitology, I guess it is no surprise that Daniel from `Parasites without Borders <http://parasiteswithoutborders.com/books/>`_ reached out to ask me to edit in the medical field.
 
-This book_ edit of Parasitic Diseases was, unsually, in my field of expertese. It also required that I recruit and manage a linguist for a pronunciation guide and assist Daniel with the clinical appendix (a new item for Edition 7 of this text). Also, I took on responsibility for indexing; this required that identifying and consolidating duplicates. When we, quite literally, ground InDesign's indexing option to a halt, I identified an alternative that consumed the PDF. Despite being a supported, paid-for option, it did not provide all the functionality we required. Therefore, I recruited someone with Python skills to customize a couple of scripts for us to provide the outcome we needed -- all in all, a great experience.
+This book_ edit of Parasitic Diseases was, unusually, in my field of expertise. It also required that I recruit and manage a linguist for a pronunciation guide and assist Daniel with the clinical appendix (a new item for Edition 7 of this text). Also, I took on responsibility for indexing; this required that identifying and consolidating duplicates. When we, quite literally, ground InDesign's indexing option to a halt, I identified an alternative that consumed the PDF. Despite being a supported, paid-for option, it did not provide all the functionality we required. Therefore, I recruited someone with Python skills to customize a couple of scripts for us to provide the outcome we needed -- all in all, a great experience.
 
-I am the editor for several Ph.D.s and papers in the Biology sphere. This is where I cut my editorial teeth before I became focused on technical writing -- for example, this paper_ in pharmacology.
+I am the editor for several PhDs and papers in the Biology sphere. This is where I cut my editorial teeth before I became focused on technical writing -- for example, this paper_ in pharmacology.
 
 I was also involved in the NGO sector in South Africa. Here I assisted with research_ and editing_: especially the editing of data-driven reports.
 
@@ -446,7 +467,7 @@ Working under an NDA, I am not able to expose this project further.
 Project: Dairy Vets
 -------------------
 
-Dairy Vets had a non-compliant API and were keen to get it to render in Redoc.ly. I worked it through Redoc.ly's linter (with the lint requirements customised to "minimal") until it was compliant enough to render. Where compromises were made to achieve this, I logged "conversations" on the PR in GitHub to prevent any issues from being dropped.
+Dairy Vets had a non-compliant API and were keen to get it to render in Redoc.ly. I worked it through Redoc.ly's linter (with the lint requirements customized to "minimal") until it was compliant enough to render. Where compromises were made to achieve this, I logged "conversations" on the PR in GitHub to prevent any issues from being dropped.
 
 .. _distdevslink:
 
@@ -473,10 +494,10 @@ Project: Glassix
 
 .. _moolalink:
 
-Project: Moola
---------------
+.. Project: Moola
+.. --------------
 
-Moola supports several financial services products. While the API is currently for internal use only, they hope to market the product. I assisted in cleaning up the documentation by working with the Indian development team across Slack and GitHub.
+.. Moola supports several financial services products. While the API is currently for internal use only, they hope to market the product. I assisted in cleaning up the documentation by working with the Indian development team across Slack and GitHub.
 
 .. _skywaylink:
 
@@ -499,7 +520,7 @@ Project: Upstart Commerce
 
 Upstart Commerce provides a complete eCommerce platform from sales, to returns. I cleaned up the YAML/Swagger to ensure that the API is described correctly and assists the user effectively. I also "proofed", i.e. I fixed those issues that affect quality, such as ensuring consistency of the English language variant and style applied. Those niggling queries such as "does boolean mean 1 or True?" were smoothed away with the application of types, defaults, and examples.
 
-Upstart_ Commerce has its Open API 3.0 documentation publicly available. This is one of the larger API sets that I cleaned up. Working with the Ukranian dev team across Slack, the docs are now fully compliant and consistent (US English).
+Upstart_ Commerce has its Open API 3.0 documentation publicly available. This is one of the larger API sets that I cleaned up. Working with the Ukrainian dev team across Slack, the docs are now fully compliant and consistent (US English).
 
 
 

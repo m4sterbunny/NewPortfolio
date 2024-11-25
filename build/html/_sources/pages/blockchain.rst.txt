@@ -72,7 +72,7 @@ In my role as a Senior technical writer at Consensys I was part of the global te
 
 I was assigned responsibility to transition the MetaMask services to support interactive API docs, allowing users to make calls from directly from the docs, for example `eth_call <https://docs.metamask.io/services/reference/linea/json-rpc-methods/eth_call>`_.
 
-To acheive this, I built out yaml-to-JSON-based Open RPC CICD for Linea as a proof of concept. I then expanded this to include Unichain, and began Solana for MetaMask::Infura.
+To achieve this, I built out yaml-to-JSON-based Open RPC CICD for Linea as a proof of concept. I then expanded this to include Unichain, and began Solana for MetaMask::Infura.
 
 This required me to: 
    * Leverage GPT to hack an extension to the Ethereum (open source) builder to accommodate multichain support (and, later, negotiate that DevOps fix this tech debt)
@@ -116,20 +116,20 @@ Qredo provided a multi-party computation Web3 wallet and vault enabling human::b
 
 **Developer Portal**
 
-- Negotiated & agreed on a tech stack with Marketing, Customer care, and Product for the new Documentation and Help Centre site
-- Contributed to porting existing content to new wireframe and populating new dev portal (1 month)
+- Negotiated & agreed on a tech stack with Marketing, Customer care, and Product for the new Documentation and Help Center site
+- Contributed to porting existing content to new wire frame and populating new dev portal (1 month)
 - Prioritized content production pipeline (6 months)
 - Contributed to content: supported the release of 3 services as developer-facing documentation (3 months)
 - Rendered & released API specs via dev portal
 - Worked with DevOps to pipe API specs from master repos to communication portal
 - First-pass iterate over 60% of existing dev portal content
 
-**General Responsibiliites**
+**General Responsibilities**
 
 - Supporting a developer audience with docs-as-code (in Markdown/static site)
 - Developing thorough RESTful API specifications for Open API 3.0 with supporting documentation
 - Managing Documentation Chapter as service desk liaising with Branding, Marketing, InfoSec, DevOps, and Product Managers
-- Attending standups, creating and consuming tickets in Jira
+- Attending standup, creating and consuming tickets in Jira
 - Recruitment of technical writers
 
 Skills: Technical Documentation · Agile Methodologies · Negotiation · Scrum
@@ -141,15 +141,16 @@ I was laid off from Qredo after 6 months; they cut all bar 4 employees and sold 
 Neon EVM
 ********
 
-Neon EVM released the first EVM on Solana. As the sole technical writer, I led developer documentation: supporting mainnet launch. I built out their API documentation in Docusaurus with OpenRPC support for Neon’s RPC API.
+Neon EVM released the first EVM on Solana. As the sole technical writer, I led developer documentation: supporting mainnet launch. I built out their API documentation in Docusaurus with OpenRPC support for Neon EVM’s RPC API.
 
-**General Responsibiliites**
+**General Responsibilities**
 
 - Supporting a developer audience with docs-as-code (in Markdown/Docusaurus static site)
 - Developing thorough Open RPC API specifications
 - Managing docs as service desk to Dev Rels and Product Managers
+- Producing :ref:`Video Documentation <Videos>` to encourage use of the product
 
-**Marketing Responsibiliites**
+**Marketing Responsibilities**
 
 My dual role included supporting Marketing: I was the main editor and writer supporting launch, collaborating with the Marketing team to create content for various platforms (Blog, Medium, Twitter, etc.). Per our Brand24 data, total unique views 870 mil via Hokku PR, organic TUV at 1.8 billion. Examples of my writing are available in :ref:`Articles <web3Articles>`.
 
@@ -160,12 +161,12 @@ Panther Protocol
 
 Panther Protocol is working toward zero-knowledge, compliant DeFi transactions. Similarly to Neon EVM, I supported Product with developer documentation and Marketing with a retail-accessible component to the same docs and retail-level articles.
 
-**General Responsibiliites**
+**General Responsibilities**
 
 - Updating GitBook docs using GitHub sync/Markdown, e.g. restructure and rewrite to provide a `single entry-point <https://docs.pantherprotocol.io/docs/panther-core/testnet#testnet-rewards>`_ for dApp community testers 
-- How-to videos: working with branding team for high-production Get Started for retail test dApp users
+- :ref:`How-to videos <Videos>`: working with branding team for high-production Get Started for retail test dApp users (note, I have shared the pre-production version, not the music tracked and branded version).
 
-**Marketing Responsibiliites**
+**Marketing Responsibilities**
 
 Examples of my writing are available in :ref:`Articles <web3Articles>`.
 
